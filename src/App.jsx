@@ -38,25 +38,25 @@ export default function App() {
           </div>
 
         {/* Right side of the screen */}
-          <div className='bg-blue-900/50 flex justify-start items-center pl-5'>
+          <div className='bg-orange-900/75 flex justify-start items-center pl-5'>
             <div className='flex flex-col-reverse'>
               <div>
-                <p className='text-xl'><About /></p>
+                <p className='text-white'><About /></p>
               </div>
               <div>
-                <p className='text-xl'><Experience /></p>
+                <p className='text-white'><Experience /></p>
               </div>
               <div>
-                <p className='text-xl'><Skills /></p>
+                <p className='text-white'><Skills /></p>
               </div>
               <div>
-                <p className='text-xl'><Edu_Cer /></p>
+                <p className='text-white'><Edu_Cer /></p>
               </div>
               <div>
-                <p className='text-xl'><Projects /></p>
+                <p className='text-white'><Projects /></p>
               </div>
               <div>
-                <p className='text-xl'><Contact /></p>
+                <p className='text-white'><Contact /></p>
               </div>
             </div>
             </div>
