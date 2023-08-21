@@ -3,7 +3,7 @@
 const About = () => {
     return(
         <div>
-            <p className="text-xl">ABC</p>
+            <p className="text-3xl">First</p>
         </div>
     )
 }
