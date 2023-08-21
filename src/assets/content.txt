@@ -1,0 +1,56 @@
+About
+Projects
+Contact
+skills
+education and certification
+
+
+
+
+
+
+
+
+the portfolio website is to have a split screen, the left side showing the different categories that the website has to offer
+and the right side to show the detailed explanation of these categories,
+the categories are slightly in the background with one category showing up in the middle, and simillarly one detailed explanation
+about the category shows up in the right side of the screen with other explanation slightly in the background
+the categories and the explanations are brought to focus by pressing the up or down key or scrolling on the respective side of the screen
+the categories and the explanation scroll in opposite ways, as the categories are scrolled up, its respective explanation scrolls down and vica versa
+the scroll action will have a cylindrical look to it.
+
+
+
+
+
+
+
+
+
+<div className='grid grid-cols-2 h-screen w-full'>
+
+        <div className='bg-gradient-to-r from-sky-500 to-indigo-500 bg-opacity-75 flex justify-end items-center pr-5'>
+
+          <div>
+            first
+          </div>
+
+          <div>
+            second
+          </div>
+
+        </div>
+
+        <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-opacity-75 flex justify-start items-center pl-5'>
+
+          <div>
+            first
+          </div>
+
+          <div>
+            second
+          </div>
+
+        </div>
+
+      </div>
